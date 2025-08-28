@@ -1,0 +1,96 @@
+<!-- 💻 Fake Error / Glitch Screen -->
+<div id="glitch-screen">
+  <div class="noise"></div>
+  <p class="glitch-text">SYSTEM ERROR_</p>
+</div>
+
+<!-- 🎵 Musik -->
+<audio id="bg-music" loop>
+  <source src="https://cdn.jsdelivr.net/gh/AisyahRahmaHsn/birthday-music/birthday.mp3" type="audio/mpeg">
+</audio>
+
+<!-- Bagian Pembukaan -->
+<div id="opening" class="wrap hidden">
+  <div class="card center">
+    <div class="media">
+      <img src="https://i.imgur.com/W63JUgf.jpg" alt="Pembukaan">
+    </div>
+    <h2 class="opening-title">Ada yang Spesial niiich✨</h2>
+    <p class="subtitle">Penasaran apa itu?</p>
+    <button class="btn" onclick="showMessage()">おしてみて！</button>
+  </div>
+</div>
+
+<!-- Bagian Ucapan -->
+<div id="message" class="wrap hidden">
+  <div class="card">
+    <div class="card__ribbon"></div>
+    <div class="card__inner">
+      <h1 class="title"></h1>
+      <div class="message">
+        <p>
+          ルナ〜！<ruby>お誕生日<rt>おたんじょうび</rt></ruby>おめでとう！！🎉🎂✨
+          ついに22<ruby>歳<rt>さい</rt></ruby>！…って<ruby>言<rt>い</rt></ruby>いたいところだけど、
+          ルナの<ruby>希望<rt>きぼう</rt></ruby>どおり「<ruby>永遠<rt>えいえん</rt></ruby>の17<ruby>歳<rt>さい</rt></ruby>」ってことにしとくね？🤣
+        </p>
+
+        <p>
+          ルナってほんとに<ruby>明<rt>あか</rt></ruby>るくて、誰とでもすぐ<ruby>仲良<rt>なかよ</rt></ruby>くできるし、
+          ちょっとした<ruby>冗談<rt>じょうだん</rt></ruby>でみんなを<ruby>笑<rt>わら</rt></ruby>わせたり、
+          場を<ruby>和<rt>なご</rt></ruby>ませたりできるのがすごいなって思う。
+          <ruby>強<rt>つよ</rt></ruby>い<ruby>意志<rt>いし</rt></ruby>もあるし、
+          でも<ruby>同時<rt>どうじ</rt></ruby>に<ruby>優<rt>やさ</rt></ruby>しくて
+          <ruby>思<rt>おも</rt></ruby>いやりがあって、友達をちゃんと大事にしてるところも<ruby>尊敬<rt>そんけい</rt></ruby>してるよ。🌸
+        </p>
+
+        <p>
+          しかも、ルナのボケとツッコミのセンスはマジで<ruby>最強<rt>さいきょう</rt></ruby>だと思うｗ😂　
+          一緒にいると、つい<ruby>声<rt>こえ</rt></ruby>出して笑っちゃうから、
+          正直ちょっと<ruby>腹筋<rt>ふっきん</rt></ruby>鍛えられてる気がするよ？笑　
+          そんなふうに<ruby>自然<rt>しぜん</rt></ruby>に人を笑顔にできるのは、
+          ほんとに<ruby>才能<rt>さいのう</rt></ruby>だと思う！
+        </p>
+
+        <p>
+          前にルナが「うるさい」とか<ruby>言<rt>い</rt></ruby>われて<ruby>落<rt>お</rt></ruby>ち<ruby>込<rt>こ</rt></ruby>んでた時があったよね。
+          でもね、私はそういうルナの元気さとか、ちょっとにぎやかなところが大好きなんだ。
+          だってそのおかげで場が明るくなるし、笑顔が増えるんだから。
+          だからね、そういうルナらしさは<ruby>絶対<rt>ぜったい</rt></ruby>に大事にしてほしい！
+          それはルナの<ruby>魅力<rt>みりょく</rt></ruby>で、他の誰にも真似できない特別な個性だから。✨
+        </p>
+
+        <p>
+          人ってさ、時々<ruby>心無<rt>こころな</rt></ruby>いことを言ったりするけど、
+          それはルナの良さをちゃんと<ruby>見抜<rt>みぬ</rt></ruby>けてないだけ。
+          だから気にしないで、ルナはそのままでいいんだよ。
+          ルナの笑顔とか明るさは、きっと周りに<ruby>勇気<rt>ゆうき</rt></ruby>や
+          元気を<ruby>与<rt>あた</rt></ruby>えてるから！🌈
+        </p>
+
+        <p>
+          これからもルナらしく、いっぱい笑って、楽しい毎日を過ごしてね！
+          時々疲れることもあるかもしれないけど、その笑顔と明るさがあれば、
+          きっとどんな日も<ruby>素敵<rt>すてき</rt></ruby>になると思うよ。
+          22<ruby>歳<rt>さい</rt></ruby>（いや、永遠の17<ruby>歳<rt>さい</rt></ruby>？w）が
+          <ruby>最高<rt>さいこう</rt></ruby>の一年になりますように！🌟
+          これからもよろしくね、ルナ！💖
+        </p>
+      </div>
+      <div class="foot">
+        <button class="btn" onclick="showOpening()">⬅もどる</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 🌸 Tambahan CSS -->
+<style>
+.message p {
+  margin-bottom: 1.2em; /* jarak antar paragraf */
+  line-height: 1.8;    /* teks lebih renggang */
+}
+ruby rt {
+  font-size: 0.6em;   /* ukuran furigana kecil */
+  color: #555;        /* warna soft biar ga ganggu */
+}
+</style>
